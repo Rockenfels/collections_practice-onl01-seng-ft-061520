@@ -42,3 +42,8 @@ end
 def sum_array(array)
   array.sum
 end
+
+#add_s - adds an "s" tot eh end of every array element
+def add_s(array)
+  array.collect { |word| word + "s" }
+end
