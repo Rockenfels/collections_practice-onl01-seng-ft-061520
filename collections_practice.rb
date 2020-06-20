@@ -13,7 +13,7 @@ def sort_array_car_count(array)
   return array.sort{ |a, b| a.length <=> b.length } 
 end
 
-#swap_elements - replaces the second and third element in an array
+#swap_elements - swaps the second and third element in an array
 def swap_elements(array)
  #need a array replacement method
 end
@@ -26,7 +26,7 @@ end
 
 #kesha_maker - changes 3rd character of each element to a dollar sign
 def kesha_maker(array)
-  #need string replacement method
+  array.collect { |word| word[2] = "$" }
 end
 
 #finda_a - finds all words that begin with "a" in the provided array
