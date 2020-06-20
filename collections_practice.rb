@@ -29,6 +29,7 @@ end
 def reverse_array(array)
   flipped = []
   array.each{ |el| flipped.unshift(el) }
+  flipped
 end
 
 #kesha_maker - changes 3rd character of each element to a dollar sign
