@@ -9,7 +9,7 @@ def sort_array_desc(array)
 end
 
 #sort_array_car_count - sorts by ascending string length
-def sort_array_car_count(array)
+def sort_array_char_count(array)
   return array.sort{ |a, b| a.length <=> b.length } 
 end
 
