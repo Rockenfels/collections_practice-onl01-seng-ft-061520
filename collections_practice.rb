@@ -33,7 +33,7 @@ end
 
 #kesha_maker - changes 3rd character of each element to a dollar sign
 def kesha_maker(array)
-  array.collect { |word| word[2] = "$" }
+  array.each { |word| word[2] = "$" }
 end
 
 #finda_a - finds all words that begin with "a" in the provided array
