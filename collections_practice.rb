@@ -52,5 +52,5 @@ end
 
 #add_s - adds an "s" tot eh end of every array element
 def add_s(array)
-  array.collect { |word| word !=  array[1] ? word + "s" }
+  array.collect { |word| word != array[1] ? word + "s" : word }
 end
