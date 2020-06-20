@@ -28,7 +28,7 @@ end
 #reverse_array - completely reverses the order of the passed array
 def reverse_array(array)
   flipped = []
-  array.collect{ |el| flipped.unshift(el) }
+  array.each{ |el| flipped.unshift(el) }
 end
 
 #kesha_maker - changes 3rd character of each element to a dollar sign
