@@ -15,7 +15,14 @@ end
 
 #swap_elements - swaps the second and third element in an array
 def swap_elements(array)
- #need a array replacement method
+ swap_2 = array[1]
+ swap_3 = array[2]
+ ans = array
+ 
+ ans[2] = swap_2
+ ans[1] = swap_3
+ 
+ ans
 end
 
 #reverse_array - completely reverses the order of the passed array
